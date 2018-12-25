@@ -23,4 +23,6 @@ Supercoin是Coinslot公司旗下开发的一款基于以太坊智能合约开发
 
 
 ===============================
-# Picture display
+# 图片展示
+![Image text](https://github.com/CoinslotBV/superCoin/blob/master/gameImg/supercoin1.png)
+![Image text](https://github.com/CoinslotBV/superCoin/blob/master/gameImg/supercoin2.png)
