@@ -44,7 +44,10 @@ SuperCoin是一款基于区块链技术的类众筹游戏，在这里您可以�
 PC端游戏：推荐使用Metamask插件进行投注（安装官网： https://metamask.io/ )
 APP端游戏：推荐使用Trust、Cipher、Jaxx等移动端钱包进行游戏。
 
+## coinslot 官网
+https://www.coinslot.com
 ===============================
 ## Game Images
 ![Image text](https://github.com/CoinslotBV/superCoin/blob/master/gameImg/supercoin1.png)
 ![Image text](https://github.com/CoinslotBV/superCoin/blob/master/gameImg/supercoin2.png)
+
