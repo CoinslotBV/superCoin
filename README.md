@@ -1,11 +1,9 @@
-# coinslot-superCoin
-coinslot superCoin play Game
 
 # English Readme
 Coinslot is a blockchain-based gaming platform with openness, transparency and checkable smart contracts. Players can get rewards from games. Bitcoin and Ethereum are supported by various games including high frequency Ether games, lotteries, poker games and bid games.
 
 ## What is superCoin?
-SuperCoin-- an instant game supports bitcoin and Ethereum payment- Coinslot.
+SuperCoin -- an instant game supports bitcoin and Ethereum payment- Coinslot.
 SuperCoin is one of the games on Coinslot. This fresh easy game is developed based on Ethereum smart contract. Winners only need to pay 0.01 ETH to win prize pool with over 10 ETH. All process is transparent, players could check all the information from Ethereum.
 SuperCoin, smart contract, Ethereum games, smart contract games, blockchain gaming.
 
