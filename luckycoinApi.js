@@ -1,5 +1,5 @@
 import Web3 from 'web3'
-// 合约addr
+// addr
 // let contractAddr = '0xd52a7d0d30584d759a6571da569c3776c7d73acc' // ceshi3
 
 // let contractAddr = '0xc9262cf88ffb919dc365b79b99ea9fe23b8e3a0b' // online
@@ -838,13 +838,11 @@ if (typeof web3 === 'undefined') {
     web3 = new Web3(new Web3.providers.HttpProvider('https://mainnet.infura.io/WlvljmHqo75RhK1w1QJF'))
 }
 
-// 通过abi 和地址获取已部署的合约对象
 let contractNet = web3.eth.contract(contractAbi).at(contractAddr)
-    //  合约api
+    //  api
 let luckyCoinApi = {}
 
 luckyCoinApi.getCurrentRoundInfo = () => {
-    // 页面整体信息
     return new Promise((resolve, reject) => {
         contractNet.getCurrentRoundInfo(function(err, res) {
             if (!err) {
@@ -871,7 +869,6 @@ luckyCoinApi.getCurrentRoundInfo = () => {
 }
 
 luckyCoinApi.getPlayerInfoByAddress = (addr) => {
-    // 页面整体信息 & 余额
     addr = addr.toString()
     let playerInfo = new Promise((resolve, reject) => {
         contractNet.getPlayerInfoByAddress(addr, function(err, res) {
@@ -1136,7 +1133,6 @@ luckyCoinApi.withdraw = () => {
 }
 
 luckyCoinApi.getAccounts = () => {
-    /* 获取当前账号地址 */
     return new Promise((resolve, reject) => {
         web3.eth.getAccounts((err, res) => {
             if (!err) {
@@ -1151,7 +1147,6 @@ luckyCoinApi.getAccounts = () => {
 }
 
 luckyCoinApi.getTimeLeft = () => {
-    /* 当前时间 */
     return new Promise((resolve, reject) => {
         contractNet.getTimeLeft((err, res) => {
             if (!err) {
@@ -1168,7 +1163,6 @@ luckyCoinApi.getTimeLeft = () => {
 }
 
 luckyCoinApi.round_ = (round) => {
-    /* 当前时间 */
     if (typeof round === 'string') {
         round = Number(round)
     }
@@ -1194,7 +1188,6 @@ luckyCoinApi.round_ = (round) => {
 }
 
 luckyCoinApi.getgasPrice = () => {
-    /* 当前时间 */
     return new Promise((resolve, reject) => {
         web3.eth.getGasPrice((err, res) => {
             if (!err) {
