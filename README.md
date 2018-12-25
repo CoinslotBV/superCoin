@@ -46,6 +46,7 @@ APP端游戏：推荐使用Trust、Cipher、Jaxx等移动端钱包进行游戏�
 
 ## coinslot 官网
 https://www.coinslot.com
+
 ===============================
 ## Game Images
 ![Image text](https://github.com/CoinslotBV/superCoin/blob/master/gameImg/supercoin1.png)
